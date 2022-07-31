@@ -64,7 +64,10 @@ a:hover {
 .ingredients {
     display:inline-block;
     padding-left: 10px;
-    width: 500px;
+    width:max-content;
+}
+.ingredients ul{
+    width:max-content;
 }
 
 .copyright {
@@ -99,5 +102,25 @@ ol li:before {
     font-size: 20px;
     content: counter(item) ". ";
     counter-increment: item;
+    font-weight: bold;
+}
+
+.recipeDesc {
+    text-align: center;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.tags2 {
+    margin-top: 190px;
+    display: flex;
+    padding: 5px;
+    list-style: none;
+    background-color: rgba(243, 154, 77, 0.281);
+}
+
+.tags2 li {
+    margin-left: 50px;
+    margin: auto auto;
     font-weight: bold;
 }
